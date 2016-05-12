@@ -24,8 +24,6 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :tilsio_api, TilsioApi.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
   database: "tilsio_api_dev",
   hostname: "localhost",
   pool_size: 10
