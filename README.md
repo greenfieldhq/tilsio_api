@@ -27,13 +27,25 @@ individual TILs.
 
 # Phoenix Server
 
+# Initial features
+- [ ] As a user, I want to be able to write a TIL so I can rememeber what I've
+  learned and incidentally, share that with others and review later
+- [ ] As a user, I want to be able to edit one of my TILs so I can correct
+  mistakes I've made
+- [ ] As a user, I want to be able to delete one of my TILs in case I realized
+  it wasn't that interesting, or is a duplicate, or for some other reason
+- [ ] As a user, I want to be able to view all TILs that have been posted
+- [ ] As a user, I want to be able to view the detailed information of a
+  particular TIL
+
 # Initial discussion items
-- [ ] Generate issues for initial backend features
-- [ ] Research into Swift
-- [ ] Determine what to do about Auth
+- [ ] Generate initial feature skeletons
+- [ ] Turn features into user stories
 - [ ] ER diagram of backend
+- [ ] Research into Swift
 
 ## Other feature ideas
+- [ ] Determine what to do about Auth
 - [ ] Searching TILs
 - [ ] Tagging TILs (elixir, writing, ember.js, swift, etc.)
 - [ ] Individual & Organization accounts
