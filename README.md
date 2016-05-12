@@ -37,9 +37,11 @@ individual TILs.
 - [ ] As a user, I want to be able to view all TILs that have been posted
 - [ ] As a user, I want to be able to view the detailed information of a
   particular TIL
+- [ ] As a user, I want to be able to view TILs in real-time (Phoenix specific
+  feature)
 
 # Initial discussion items
-- [ ] Generate initial feature skeletons
+- [x] Generate initial feature skeletons
 - [ ] Turn features into user stories
 - [ ] ER diagram of backend
 - [ ] Research into Swift
