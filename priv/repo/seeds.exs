@@ -1,11 +1,25 @@
-# Script for populating the database. You can run it as:
-#
-#     mix run priv/repo/seeds.exs
-#
-# Inside the script, you can read and write to any of your
-# repositories directly:
-#
-#     TilsioApi.Repo.insert!(%TilsioApi.SomeModel{})
-#
-# We recommend using the bang functions (`insert!`, `update!`
-# and so on) as they will fail if something goes wrong.
+alias TilsioApi.Repo
+alias TilsioApi.Til
+
+til_attrs1 = %{
+  title: "TIL that there is no real JSON standard for iOS apps",
+  body: "I learned this after talking to some mobile developers"
+}
+
+Til.changeset(%Til{}, til_attrs1) 
+|> Repo.insert!
+
+til_attrs2 = %{
+  title: "TIL that Ernest Hemingway would stop writing mid-sentence so he knew where to pick it up the other day"
+}
+
+Til.changeset(%Til{}, til_attrs2) 
+|> Repo.insert!
+
+til_attrs3 = %{
+  title: "TIL how to use Erlang's FTP library in Elixir",
+  body: "https://github.com/greenfieldhq/til/issues/16"
+}
+
+Til.changeset(%Til{}, til_attrs3) 
+|> Repo.insert!
